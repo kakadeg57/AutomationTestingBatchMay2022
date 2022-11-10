@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CrmTestSuite">
+  <test thread-count="5" name="RegressionTest">
+    <classes>
+    	<class name="crmtest.LoginPageTest"/>
+    	<class name="crmtest.HomePageTest"/>
+      	<class name="crmtest.ContactPageTest"/>
+      	<class name="crmtest.CompanPageTest"/>    
+      	<class name="crmtest.DealPageTest"/>
+      
+    </classes>
+  </test> <!-- RegressionTest -->
+</suite> <!-- CrmTestSuite -->
