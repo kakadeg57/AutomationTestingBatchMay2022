@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="24" passed="24">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CrmProTestSuite" duration-ms="887856" started-at="2022-11-10T11:03:51 IST" finished-at="2022-11-10T11:18:39 IST">
+    <groups>
+    </groups>
+    <test name="RegressionTest" duration-ms="887856" started-at="2022-11-10T11:03:51 IST" finished-at="2022-11-10T11:18:39 IST">
+      <class name="crmprotest.NewComponyPageTest">
+        <test-method status="PASS" signature="intialization()[pri:0, instance:crmprotest.NewComponyPageTest@3891771e]" name="intialization" is-config="true" duration-ms="22176" started-at="2022-11-10T11:03:51 IST" finished-at="2022-11-10T11:04:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method status="PASS" signature="validateNewComponyTest()[pri:0, instance:crmprotest.NewComponyPageTest@3891771e]" name="validateNewComponyTest" duration-ms="2936" started-at="2022-11-10T11:04:14 IST" finished-at="2022-11-10T11:04:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewComponyTest -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:crmprotest.NewComponyPageTest@3891771e]" name="closeResources" is-config="true" duration-ms="16236" started-at="2022-11-10T11:04:16 IST" finished-at="2022-11-10T11:04:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+      </class> <!-- crmprotest.NewComponyPageTest -->
+      <class name="crmprotest.NewDealPageTest">
+        <test-method status="PASS" signature="intialization()[pri:0, instance:crmprotest.NewDealPageTest@df27fae]" name="intialization" is-config="true" duration-ms="23511" started-at="2022-11-10T11:04:33 IST" finished-at="2022-11-10T11:04:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method status="PASS" signature="validateDealTest()[pri:0, instance:crmprotest.NewDealPageTest@df27fae]" name="validateDealTest" duration-ms="3870" started-at="2022-11-10T11:04:56 IST" finished-at="2022-11-10T11:05:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDealTest -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:crmprotest.NewDealPageTest@df27fae]" name="closeResources" is-config="true" duration-ms="16245" started-at="2022-11-10T11:05:00 IST" finished-at="2022-11-10T11:05:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+      </class> <!-- crmprotest.NewDealPageTest -->
+      <class name="crmprotest.NewTaskPageTest">
+        <test-method status="PASS" signature="intialization()[pri:0, instance:crmprotest.NewTaskPageTest@16f7c8c1]" name="intialization" is-config="true" duration-ms="22011" started-at="2022-11-10T11:09:27 IST" finished-at="2022-11-10T11:09:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method status="PASS" signature="validateDealTest()[pri:0, instance:crmprotest.NewTaskPageTest@16f7c8c1]" name="validateDealTest" duration-ms="0" started-at="2022-11-10T11:09:49 IST" finished-at="2022-11-10T11:09:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDealTest -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:crmprotest.NewTaskPageTest@16f7c8c1]" name="closeResources" is-config="true" duration-ms="16242" started-at="2022-11-10T11:09:49 IST" finished-at="2022-11-10T11:10:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+      </class> <!-- crmprotest.NewTaskPageTest -->
+      <class name="crmprotest.HomePageTest">
+        <test-method status="PASS" signature="intialization()[pri:0, instance:crmprotest.HomePageTest@27d415d9]" name="intialization" is-config="true" duration-ms="18508" started-at="2022-11-10T11:12:48 IST" finished-at="2022-11-10T11:13:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method status="PASS" signature="validateLogoutBtnTest()[pri:1, instance:crmprotest.HomePageTest@27d415d9]" name="validateLogoutBtnTest" duration-ms="1614" started-at="2022-11-10T11:13:06 IST" finished-at="2022-11-10T11:13:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogoutBtnTest -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:crmprotest.HomePageTest@27d415d9]" name="closeResources" is-config="true" duration-ms="16243" started-at="2022-11-10T11:13:08 IST" finished-at="2022-11-10T11:13:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+        <test-method status="PASS" signature="intialization()[pri:0, instance:crmprotest.HomePageTest@27d415d9]" name="intialization" is-config="true" duration-ms="20447" started-at="2022-11-10T11:13:24 IST" finished-at="2022-11-10T11:13:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method status="PASS" signature="validateDisplayedLogoTest()[pri:2, instance:crmprotest.HomePageTest@27d415d9]" name="validateDisplayedLogoTest" duration-ms="19" started-at="2022-11-10T11:13:45 IST" finished-at="2022-11-10T11:13:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDisplayedLogoTest -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:crmprotest.HomePageTest@27d415d9]" name="closeResources" is-config="true" duration-ms="16244" started-at="2022-11-10T11:13:45 IST" finished-at="2022-11-10T11:14:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+        <test-method status="PASS" signature="intialization()[pri:0, instance:crmprotest.HomePageTest@27d415d9]" name="intialization" is-config="true" duration-ms="18848" started-at="2022-11-10T11:14:01 IST" finished-at="2022-11-10T11:14:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method status="PASS" signature="validateUserNameTest()[pri:3, instance:crmprotest.HomePageTest@27d415d9]" name="validateUserNameTest" duration-ms="15" started-at="2022-11-10T11:14:20 IST" finished-at="2022-11-10T11:14:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserNameTest -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:crmprotest.HomePageTest@27d415d9]" name="closeResources" is-config="true" duration-ms="16239" started-at="2022-11-10T11:14:20 IST" finished-at="2022-11-10T11:14:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+        <test-method status="PASS" signature="intialization()[pri:0, instance:crmprotest.HomePageTest@27d415d9]" name="intialization" is-config="true" duration-ms="18785" started-at="2022-11-10T11:14:36 IST" finished-at="2022-11-10T11:14:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method status="PASS" signature="validateHomeLinkTest()[pri:4, instance:crmprotest.HomePageTest@27d415d9]" name="validateHomeLinkTest" duration-ms="2084" started-at="2022-11-10T11:14:55 IST" finished-at="2022-11-10T11:14:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomeLinkTest -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:crmprotest.HomePageTest@27d415d9]" name="closeResources" is-config="true" duration-ms="16244" started-at="2022-11-10T11:14:57 IST" finished-at="2022-11-10T11:15:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+        <test-method status="PASS" signature="intialization()[pri:0, instance:crmprotest.HomePageTest@27d415d9]" name="intialization" is-config="true" duration-ms="19248" started-at="2022-11-10T11:15:13 IST" finished-at="2022-11-10T11:15:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method status="PASS" signature="validateCalenderlinktest()[pri:5, instance:crmprotest.HomePageTest@27d415d9]" name="validateCalenderlinktest" duration-ms="2866" started-at="2022-11-10T11:15:32 IST" finished-at="2022-11-10T11:15:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCalenderlinktest -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:crmprotest.HomePageTest@27d415d9]" name="closeResources" is-config="true" duration-ms="16243" started-at="2022-11-10T11:15:35 IST" finished-at="2022-11-10T11:15:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+        <test-method status="PASS" signature="intialization()[pri:0, instance:crmprotest.HomePageTest@27d415d9]" name="intialization" is-config="true" duration-ms="17487" started-at="2022-11-10T11:15:51 IST" finished-at="2022-11-10T11:16:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method status="PASS" signature="validateComponyLinkTest()[pri:6, instance:crmprotest.HomePageTest@27d415d9]" name="validateComponyLinkTest" duration-ms="2302" started-at="2022-11-10T11:16:09 IST" finished-at="2022-11-10T11:16:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateComponyLinkTest -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:crmprotest.HomePageTest@27d415d9]" name="closeResources" is-config="true" duration-ms="16241" started-at="2022-11-10T11:16:11 IST" finished-at="2022-11-10T11:16:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+        <test-method status="PASS" signature="intialization()[pri:0, instance:crmprotest.HomePageTest@27d415d9]" name="intialization" is-config="true" duration-ms="19298" started-at="2022-11-10T11:16:27 IST" finished-at="2022-11-10T11:16:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method status="PASS" signature="validateContactLinkTest()[pri:7, instance:crmprotest.HomePageTest@27d415d9]" name="validateContactLinkTest" duration-ms="2836" started-at="2022-11-10T11:16:47 IST" finished-at="2022-11-10T11:16:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContactLinkTest -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:crmprotest.HomePageTest@27d415d9]" name="closeResources" is-config="true" duration-ms="16259" started-at="2022-11-10T11:16:50 IST" finished-at="2022-11-10T11:17:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+        <test-method status="PASS" signature="intialization()[pri:0, instance:crmprotest.HomePageTest@27d415d9]" name="intialization" is-config="true" duration-ms="17785" started-at="2022-11-10T11:17:06 IST" finished-at="2022-11-10T11:17:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method status="PASS" signature="validateDealLinkTest()[pri:8, instance:crmprotest.HomePageTest@27d415d9]" name="validateDealLinkTest" duration-ms="2800" started-at="2022-11-10T11:17:24 IST" finished-at="2022-11-10T11:17:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDealLinkTest -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:crmprotest.HomePageTest@27d415d9]" name="closeResources" is-config="true" duration-ms="16250" started-at="2022-11-10T11:17:26 IST" finished-at="2022-11-10T11:17:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+        <test-method status="PASS" signature="intialization()[pri:0, instance:crmprotest.HomePageTest@27d415d9]" name="intialization" is-config="true" duration-ms="17754" started-at="2022-11-10T11:17:43 IST" finished-at="2022-11-10T11:18:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method status="PASS" signature="validateSetUpLinkTest()[pri:9, instance:crmprotest.HomePageTest@27d415d9]" name="validateSetUpLinkTest" duration-ms="1908" started-at="2022-11-10T11:18:00 IST" finished-at="2022-11-10T11:18:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSetUpLinkTest -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:crmprotest.HomePageTest@27d415d9]" name="closeResources" is-config="true" duration-ms="74" started-at="2022-11-10T11:18:02 IST" finished-at="2022-11-10T11:18:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+        <test-method status="PASS" signature="intialization()[pri:0, instance:crmprotest.HomePageTest@27d415d9]" name="intialization" is-config="true" duration-ms="17360" started-at="2022-11-10T11:18:02 IST" finished-at="2022-11-10T11:18:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method status="PASS" signature="validateTaskLinkTest()[pri:10, instance:crmprotest.HomePageTest@27d415d9]" name="validateTaskLinkTest" duration-ms="3199" started-at="2022-11-10T11:18:20 IST" finished-at="2022-11-10T11:18:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTaskLinkTest -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:crmprotest.HomePageTest@27d415d9]" name="closeResources" is-config="true" duration-ms="16264" started-at="2022-11-10T11:18:23 IST" finished-at="2022-11-10T11:18:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+      </class> <!-- crmprotest.HomePageTest -->
+      <class name="crmprotest.NewEventPageTest">
+        <test-method status="PASS" signature="intialization()[pri:0, instance:crmprotest.NewEventPageTest@fcd6521]" name="intialization" is-config="true" duration-ms="21563" started-at="2022-11-10T11:12:06 IST" finished-at="2022-11-10T11:12:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method status="PASS" signature="validateNewEventTest()[pri:0, instance:crmprotest.NewEventPageTest@fcd6521]" name="validateNewEventTest" duration-ms="3660" started-at="2022-11-10T11:12:28 IST" finished-at="2022-11-10T11:12:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewEventTest -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:crmprotest.NewEventPageTest@fcd6521]" name="closeResources" is-config="true" duration-ms="16260" started-at="2022-11-10T11:12:31 IST" finished-at="2022-11-10T11:12:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+      </class> <!-- crmprotest.NewEventPageTest -->
+      <class name="crmprotest.NewContactPageTest">
+        <test-method status="PASS" signature="intialization()[pri:0, instance:crmprotest.NewContactPageTest@24a35978]" name="intialization" is-config="true" duration-ms="21192" started-at="2022-11-10T11:05:17 IST" finished-at="2022-11-10T11:05:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method status="PASS" signature="ValidateCreateContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:crmprotest.NewContactPageTest@24a35978]" name="ValidateCreateContactTest" duration-ms="2582" started-at="2022-11-10T11:05:38 IST" data-provider="contactdata" finished-at="2022-11-10T11:05:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ajay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pande]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aurangabad]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4.643131341E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCreateContactTest -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:crmprotest.NewContactPageTest@24a35978]" name="closeResources" is-config="true" duration-ms="16235" started-at="2022-11-10T11:05:41 IST" finished-at="2022-11-10T11:05:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+        <test-method status="PASS" signature="intialization()[pri:0, instance:crmprotest.NewContactPageTest@24a35978]" name="intialization" is-config="true" duration-ms="20895" started-at="2022-11-10T11:05:57 IST" finished-at="2022-11-10T11:06:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method status="PASS" signature="ValidateCreateContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:crmprotest.NewContactPageTest@24a35978]" name="ValidateCreateContactTest" duration-ms="2540" started-at="2022-11-10T11:06:18 IST" data-provider="contactdata" finished-at="2022-11-10T11:06:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sushant]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gohil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aurangabad]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5.643131341E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCreateContactTest -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:crmprotest.NewContactPageTest@24a35978]" name="closeResources" is-config="true" duration-ms="16255" started-at="2022-11-10T11:06:20 IST" finished-at="2022-11-10T11:06:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+        <test-method status="PASS" signature="intialization()[pri:0, instance:crmprotest.NewContactPageTest@24a35978]" name="intialization" is-config="true" duration-ms="21051" started-at="2022-11-10T11:06:37 IST" finished-at="2022-11-10T11:06:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method status="PASS" signature="ValidateCreateContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:crmprotest.NewContactPageTest@24a35978]" name="ValidateCreateContactTest" duration-ms="2589" started-at="2022-11-10T11:06:58 IST" data-provider="contactdata" finished-at="2022-11-10T11:07:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nilesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[suryavanshi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aurangabad]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7.643131341E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCreateContactTest -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:crmprotest.NewContactPageTest@24a35978]" name="closeResources" is-config="true" duration-ms="16254" started-at="2022-11-10T11:07:00 IST" finished-at="2022-11-10T11:07:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+        <test-method status="PASS" signature="intialization()[pri:0, instance:crmprotest.NewContactPageTest@24a35978]" name="intialization" is-config="true" duration-ms="31268" started-at="2022-11-10T11:07:17 IST" finished-at="2022-11-10T11:07:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method status="PASS" signature="ValidateCreateContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:crmprotest.NewContactPageTest@24a35978]" name="ValidateCreateContactTest" duration-ms="3206" started-at="2022-11-10T11:07:48 IST" data-provider="contactdata" finished-at="2022-11-10T11:07:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chavan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aurangabad]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8.643131341E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCreateContactTest -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:crmprotest.NewContactPageTest@24a35978]" name="closeResources" is-config="true" duration-ms="16247" started-at="2022-11-10T11:07:51 IST" finished-at="2022-11-10T11:08:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+        <test-method status="PASS" signature="intialization()[pri:0, instance:crmprotest.NewContactPageTest@24a35978]" name="intialization" is-config="true" duration-ms="20238" started-at="2022-11-10T11:08:07 IST" finished-at="2022-11-10T11:08:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method status="PASS" signature="ValidateCreateContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:crmprotest.NewContactPageTest@24a35978]" name="ValidateCreateContactTest" duration-ms="2571" started-at="2022-11-10T11:08:28 IST" data-provider="contactdata" finished-at="2022-11-10T11:08:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pratik]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sonawane]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aurangabad]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6.643131341E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCreateContactTest -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:crmprotest.NewContactPageTest@24a35978]" name="closeResources" is-config="true" duration-ms="16251" started-at="2022-11-10T11:08:30 IST" finished-at="2022-11-10T11:08:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+        <test-method status="PASS" signature="intialization()[pri:0, instance:crmprotest.NewContactPageTest@24a35978]" name="intialization" is-config="true" duration-ms="21568" started-at="2022-11-10T11:08:46 IST" finished-at="2022-11-10T11:09:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method status="PASS" signature="ValidateCreateContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:crmprotest.NewContactPageTest@24a35978]" name="ValidateCreateContactTest" duration-ms="2512" started-at="2022-11-10T11:09:08 IST" data-provider="contactdata" finished-at="2022-11-10T11:09:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rushikesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gawde]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aurangabad]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.643131341E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCreateContactTest -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:crmprotest.NewContactPageTest@24a35978]" name="closeResources" is-config="true" duration-ms="16261" started-at="2022-11-10T11:09:10 IST" finished-at="2022-11-10T11:09:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+      </class> <!-- crmprotest.NewContactPageTest -->
+      <class name="crmprotest.LoginPageTest">
+        <test-method status="PASS" signature="intialization()[pri:0, instance:crmprotest.LoginPageTest@319b92f3]" name="intialization" is-config="true" duration-ms="9881" started-at="2022-11-10T11:10:05 IST" finished-at="2022-11-10T11:10:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method status="PASS" signature="validateLoginPageTest()[pri:1, instance:crmprotest.LoginPageTest@319b92f3]" name="validateLoginPageTest" duration-ms="9264" started-at="2022-11-10T11:10:15 IST" finished-at="2022-11-10T11:10:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPageTest -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:crmprotest.LoginPageTest@319b92f3]" name="closeResources" is-config="true" duration-ms="16228" started-at="2022-11-10T11:10:24 IST" finished-at="2022-11-10T11:10:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+        <test-method status="PASS" signature="intialization()[pri:0, instance:crmprotest.LoginPageTest@319b92f3]" name="intialization" is-config="true" duration-ms="9650" started-at="2022-11-10T11:10:40 IST" finished-at="2022-11-10T11:10:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method status="PASS" signature="validateLogoImgTest()[pri:2, instance:crmprotest.LoginPageTest@319b92f3]" name="validateLogoImgTest" duration-ms="59" started-at="2022-11-10T11:10:50 IST" finished-at="2022-11-10T11:10:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogoImgTest -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:crmprotest.LoginPageTest@319b92f3]" name="closeResources" is-config="true" duration-ms="16270" started-at="2022-11-10T11:10:50 IST" finished-at="2022-11-10T11:11:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+        <test-method status="PASS" signature="intialization()[pri:0, instance:crmprotest.LoginPageTest@319b92f3]" name="intialization" is-config="true" duration-ms="9699" started-at="2022-11-10T11:11:06 IST" finished-at="2022-11-10T11:11:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method status="PASS" signature="validateGetTitleTest()[pri:3, instance:crmprotest.LoginPageTest@319b92f3]" name="validateGetTitleTest" duration-ms="4" started-at="2022-11-10T11:11:16 IST" finished-at="2022-11-10T11:11:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetTitleTest -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:crmprotest.LoginPageTest@319b92f3]" name="closeResources" is-config="true" duration-ms="16242" started-at="2022-11-10T11:11:16 IST" finished-at="2022-11-10T11:11:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+        <test-method status="PASS" signature="intialization()[pri:0, instance:crmprotest.LoginPageTest@319b92f3]" name="intialization" is-config="true" duration-ms="10305" started-at="2022-11-10T11:11:32 IST" finished-at="2022-11-10T11:11:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialization -->
+        <test-method status="PASS" signature="validateForgetPasswordTest()[pri:4, instance:crmprotest.LoginPageTest@319b92f3]" name="validateForgetPasswordTest" duration-ms="7368" started-at="2022-11-10T11:11:43 IST" finished-at="2022-11-10T11:11:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateForgetPasswordTest -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:crmprotest.LoginPageTest@319b92f3]" name="closeResources" is-config="true" duration-ms="16270" started-at="2022-11-10T11:11:50 IST" finished-at="2022-11-10T11:12:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+      </class> <!-- crmprotest.LoginPageTest -->
+    </test> <!-- RegressionTest -->
+  </suite> <!-- CrmProTestSuite -->
+</testng-results>
