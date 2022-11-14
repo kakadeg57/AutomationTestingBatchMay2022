@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [CrmTestSuite]">
+<suite name="Failed suite [CrmTestSuite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="RegressionTest(failed)">
     <classes>
-      <class name="crmtest.HomePageTest">
+      <class name="crmtest.LoginPageTest">
         <methods>
-          <include name="validateCreateCompanyLinkRedirection"/>
-          <include name="initialization"/>
+          <include name="validateLoginPageTitleTest"/>
           <include name="closeResources"/>
-          <include name="validateLogoutTest"/>
-          <include name="validateCreateContactLinkRedirection"/>
+          <include name="initialization"/>
         </methods>
-      </class> <!-- crmtest.HomePageTest -->
+      </class> <!-- crmtest.LoginPageTest -->
       <class name="crmtest.ContactPageTest">
         <methods>
           <include name="initialization"/>
-          <include name="validateCreateContactTest" invocation-numbers="1"/>
+          <include name="validateCreateContactTest"/>
           <include name="closeResources"/>
         </methods>
       </class> <!-- crmtest.ContactPageTest -->

@@ -8,7 +8,7 @@
       	<class name="crmtest.ContactPageTest"/>
       	<class name="crmtest.CompanPageTest"/>    
       	<class name="crmtest.DealPageTest"/>
-      
+      	<class name="crmtest.TaskPageTest"/>
     </classes>
   </test> <!-- RegressionTest -->
 </suite> <!-- CrmTestSuite -->

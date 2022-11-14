@@ -17,7 +17,7 @@ public class TestBase {
 	
 	public static void init() {
 		try {
-		FileInputStream file = new FileInputStream("C:\\Users\\Admin\\eclipse-workspace\\AutomationFrameworkBatchMay\\config.properties");
+		FileInputStream file = new FileInputStream("C:\\Users\\roshan\\eclipse-workspace\\MyMavenProject\\config.properties");
 		prop = new Properties();
 		prop.load(file);
 		}

@@ -10,12 +10,14 @@ import base.TestBase;
 import crmpages.ContactPage;
 import crmpages.HomePage;
 import crmpages.LoginPage;
+import crmpages.TaskPage;
 import util.TestUtility;
 
 public class HomePageTest extends TestBase{
 	LoginPage loginPage;
 	HomePage homePage;
 	ContactPage contactPage;
+	TaskPage taskPage;
 	@BeforeMethod
 	public void initialization() {
 		init(); // this method will create instance of Chrome browser > and loads FreeCRM loginpage
@@ -45,7 +47,10 @@ public class HomePageTest extends TestBase{
 		
 		homePage.clickOnNewCompany();
 	}
-	
+	@Test
+	public void validateCreateTaskLinkRedirection() {
+		homePage.clickOnNewTask();
+	}
 //	@Test
 //	public void validateCreateDealLinkRedirection() {
 //		
