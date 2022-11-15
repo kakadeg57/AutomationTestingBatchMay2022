@@ -1,8 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [CrmTestSuite]">
+<suite name="Failed suite [CrmTestSuite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="RegressionTest(failed)">
     <classes>
+      <class name="crmtest.LoginPageTest">
+        <methods>
+          <include name="validateLoginPageTitleTest"/>
+          <include name="validateLoginPageLogoTest"/>
+          <include name="closeResources"/>
+          <include name="validateLoginTest"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- crmtest.LoginPageTest -->
+      <class name="crmtest.CompanPageTest">
+        <methods>
+          <include name="initialization"/>
+          <include name="closeResources"/>
+          <include name="validateCompanyTest"/>
+        </methods>
+      </class> <!-- crmtest.CompanPageTest -->
+      <class name="crmtest.ContactPageTest">
+        <methods>
+          <include name="initialization"/>
+          <include name="validateCreateContactTest"/>
+          <include name="closeResources"/>
+          <include name="validateDemoTest"/>
+        </methods>
+      </class> <!-- crmtest.ContactPageTest -->
       <class name="crmtest.HomePageTest">
         <methods>
           <include name="validateCreateCompanyLinkRedirection"/>
@@ -12,13 +36,6 @@
           <include name="validateCreateContactLinkRedirection"/>
         </methods>
       </class> <!-- crmtest.HomePageTest -->
-      <class name="crmtest.ContactPageTest">
-        <methods>
-          <include name="initialization"/>
-          <include name="validateCreateContactTest" invocation-numbers="1"/>
-          <include name="closeResources"/>
-        </methods>
-      </class> <!-- crmtest.ContactPageTest -->
     </classes>
   </test> <!-- RegressionTest(failed) -->
 </suite> <!-- Failed suite [CrmTestSuite] -->
