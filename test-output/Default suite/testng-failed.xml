@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="crmtest.ContactPageTest">
+      <class name="crmtest.DealPageTest">
         <methods>
-          <include name="initialization"/>
-          <include name="validateCreateContactTest"/>
           <include name="closeResources"/>
-          <include name="validateDemoTest"/>
+          <include name="initialization"/>
+          <include name="validatenewdealTest"/>
         </methods>
-      </class> <!-- crmtest.ContactPageTest -->
+      </class> <!-- crmtest.DealPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

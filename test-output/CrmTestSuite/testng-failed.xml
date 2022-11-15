@@ -3,19 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [CrmTestSuite]">
   <test thread-count="5" name="RegressionTest(failed)">
     <classes>
-      <class name="crmtest.HomePageTest">
+      <class name="crmtest.DealPageTest">
         <methods>
-          <include name="validateCreateCompanyLinkRedirection"/>
-          <include name="initialization"/>
           <include name="closeResources"/>
-          <include name="validateLogoutTest"/>
-          <include name="validateCreateContactLinkRedirection"/>
+          <include name="initialization"/>
+          <include name="validatenewdealTest"/>
         </methods>
-      </class> <!-- crmtest.HomePageTest -->
+      </class> <!-- crmtest.DealPageTest -->
       <class name="crmtest.ContactPageTest">
         <methods>
           <include name="initialization"/>
-          <include name="validateCreateContactTest" invocation-numbers="1"/>
+          <include name="validateCreateContactTest"/>
           <include name="closeResources"/>
         </methods>
       </class> <!-- crmtest.ContactPageTest -->

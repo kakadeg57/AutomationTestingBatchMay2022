@@ -30,6 +30,14 @@ public class HomePage extends TestBase{
 	@FindBy(xpath = "/html/body/table[1]/tbody/tr[3]/td[1]/div/div/ul/li[3]/ul/li[1]/a")
 	WebElement newCompany;
 	
+	@FindBy(xpath = "/html/body/table[1]/tbody/tr[3]/td[1]/div/div/ul/li[5]/a")
+	WebElement deal;
+	
+	@FindBy(xpath = "/html/body/table[1]/tbody/tr[3]/td[1]/div/div/ul/li[5]/ul/li[1]/a")
+	WebElement newdeal;
+	
+	
+	
 
 //3) // actions 
 	public void logout() {
@@ -49,7 +57,12 @@ public class HomePage extends TestBase{
 		newCompany.click();
 		return new CompanyPage();
 	}
-	
+	public DealPage clickOnNewDeal() {
+		TestUtility.switchToMainPannelFrame();
+		TestUtility.mouseHover(deal);
+		newdeal.click();
+		return new DealPage();
+	}
 	
 	public String logoutButtonText() {
 		

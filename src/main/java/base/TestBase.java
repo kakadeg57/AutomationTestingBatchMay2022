@@ -17,7 +17,7 @@ public class TestBase {
 	
 	public static void init() {
 		try {
-		FileInputStream file = new FileInputStream("C:\\Users\\Admin\\eclipse-workspace\\AutomationFrameworkBatchMay\\config.properties");
+		FileInputStream file = new FileInputStream("C:\\Users\\MASTER\\eclipse-workspace\\testNG\\automation\\AutomationTestingBatchMay2022\\config.properties");
 		prop = new Properties();
 		prop.load(file);
 		}
