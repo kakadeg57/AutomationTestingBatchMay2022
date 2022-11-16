@@ -1,5 +1,6 @@
 package crmtest;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -29,14 +30,15 @@ public class CompanPageTest extends TestBase{
 	
 	@Test
 	public void validateCompanyTest() {
-		companyPage.createCompany();
-		System.out.println("successfully validated");
+		companyPage.createCompany("abc", "manufacturing", "1", "5", "--", "GSTIN-121212", "9874561230", "1212", "abc.com", "abc@gmail.com", "abc", "--","Shipping Address" , "xyz charkop kandivali(W)", "Kandivali", "Maharashtra", "400067", "India", "Roshan", "Hello I'm abc llp");
+		Assert.assertEquals(companyPage.contactNameTxt(), "abc");
+		System.out.println("Company "+companyPage.contactNameTxt()+"created successfully");
 	}
 	
 	
 	@AfterMethod
 	public void closeResources() {
-		
+		driver.close();
 	}
 
 }

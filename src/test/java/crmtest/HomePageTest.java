@@ -1,6 +1,6 @@
 package crmtest;
 
-import org.openqa.selenium.chrome.ChromeDriver;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -11,7 +11,6 @@ import crmpages.ContactPage;
 import crmpages.HomePage;
 import crmpages.LoginPage;
 import crmpages.TaskPage;
-import util.TestUtility;
 
 public class HomePageTest extends TestBase{
 	LoginPage loginPage;
@@ -51,10 +50,11 @@ public class HomePageTest extends TestBase{
 	public void validateCreateTaskLinkRedirection() {
 		homePage.clickOnNewTask();
 	}
-//	@Test
-//	public void validateCreateDealLinkRedirection() {
-//		
-//	}
+	
+	@Test
+	public void validateCreateCallLinkRedirection() {
+		homePage.clickOnNewCase();
+	}
 //	
 //	@Test
 //	public void validateCreateTaskLinkRedirection() {

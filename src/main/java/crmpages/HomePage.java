@@ -1,7 +1,6 @@
 package crmpages;
 
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -34,6 +33,10 @@ public class HomePage extends TestBase{
 	@FindBy(xpath = "//a[@title='New Task']")
 	WebElement newTask;
 	
+	@FindBy(xpath ="//a[text()='Cases']")
+	WebElement cases;
+	@FindBy(xpath ="//a[@title='New Case']")
+	WebElement newCases;
 
 //3) // actions 
 	public void logout() {
@@ -65,6 +68,12 @@ public class HomePage extends TestBase{
 		
 	 String txt = logoutBtn.getText();
 	 return txt;
+	}
+
+	public void clickOnNewCase() {
+		TestUtility.switchToMainPannelFrame();
+		TestUtility.mouseHover(cases);
+		newCases.click();
 	}
 
 }

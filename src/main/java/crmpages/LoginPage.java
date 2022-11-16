@@ -1,9 +1,7 @@
 package crmpages;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -13,13 +11,13 @@ public class LoginPage extends TestBase{
 // to initialize web elements - pagefactory method initElements-> inside constructor
 	
 	public LoginPage() {
-		PageFactory.initElements(driver, this);
+		PageFactory.initElements(TestBase.driver,this);
 	}
 	
 // page objects repository 
 	
 	// username text box 
-	@FindBy(xpath = "//input[@placeholder='Username']")
+	@FindBy(name = "username")
 	WebElement usernameTxt;
 	
 	// password text box
@@ -40,7 +38,6 @@ public class LoginPage extends TestBase{
 		usernameTxt.sendKeys(username);
 		passwordTxt.sendKeys(password);
 		loginBtn.click();
-		
 		return new HomePage();
 	}
 	
