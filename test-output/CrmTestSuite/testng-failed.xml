@@ -12,13 +12,30 @@
           <include name="validateCreateContactLinkRedirection"/>
         </methods>
       </class> <!-- crmtest.HomePageTest -->
+      <class name="crmtest.LoginPageTest">
+        <methods>
+          <include name="validateLoginPageTitleTest"/>
+          <include name="validateLoginPageLogoTest"/>
+          <include name="closeResources"/>
+          <include name="validateLoginTest"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- crmtest.LoginPageTest -->
       <class name="crmtest.ContactPageTest">
         <methods>
           <include name="initialization"/>
-          <include name="validateCreateContactTest" invocation-numbers="1"/>
+          <include name="validateCreateContactTest"/>
           <include name="closeResources"/>
+          <include name="validateDemoTest"/>
         </methods>
       </class> <!-- crmtest.ContactPageTest -->
+      <class name="crmtest.CompanPageTest">
+        <methods>
+          <include name="initialization"/>
+          <include name="closeResources"/>
+          <include name="validateCompanyTest"/>
+        </methods>
+      </class> <!-- crmtest.CompanPageTest -->
     </classes>
   </test> <!-- RegressionTest(failed) -->
 </suite> <!-- Failed suite [CrmTestSuite] -->

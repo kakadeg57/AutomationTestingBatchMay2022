@@ -8,6 +8,8 @@
       	<class name="crmtest.ContactPageTest"/>
       	<class name="crmtest.CompanPageTest"/>    
       	<class name="crmtest.DealPageTest"/>
+      	<class name="crmtest.CalenderPageTest"/>
+      			
       
     </classes>
   </test> <!-- RegressionTest -->
