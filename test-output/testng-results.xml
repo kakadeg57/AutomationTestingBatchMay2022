@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="10" passed="1" failed="0" skipped="9">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-15T08:52:12 IST" name="CrmTestSuite" finished-at="2022-11-15T08:52:12 IST" duration-ms="551">
+  <suite started-at="2022-11-16T12:53:30 IST" name="CrmTestSuite" finished-at="2022-11-16T12:53:31 IST" duration-ms="1064">
     <groups>
     </groups>
-    <test started-at="2022-11-15T08:52:12 IST" name="RegressionTest" finished-at="2022-11-15T08:52:12 IST" duration-ms="551">
+    <test started-at="2022-11-16T12:53:30 IST" name="RegressionTest" finished-at="2022-11-16T12:53:31 IST" duration-ms="1064">
       <class name="crmtest.LoginPageTest">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:crmtest.LoginPageTest@694abbdc]" started-at="2022-11-15T08:52:12 IST" name="initialization" finished-at="2022-11-15T08:52:12 IST" duration-ms="24" status="FAIL">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:crmtest.LoginPageTest@694abbdc]" started-at="2022-11-16T12:53:30 IST" name="initialization" finished-at="2022-11-16T12:53:30 IST" duration-ms="25" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "java.util.Properties.getProperty(String)" because "base.TestBase.prop" is null]]>
@@ -52,7 +52,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="validateLoginTest()[pri:1, instance:crmtest.LoginPageTest@694abbdc]" started-at="2022-11-15T08:52:12 IST" name="validateLoginTest" finished-at="2022-11-15T08:52:12 IST" duration-ms="0" status="SKIP">
+        <test-method signature="validateLoginTest()[pri:1, instance:crmtest.LoginPageTest@694abbdc]" started-at="2022-11-16T12:53:30 IST" name="validateLoginTest" finished-at="2022-11-16T12:53:30 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "java.util.Properties.getProperty(String)" because "base.TestBase.prop" is null]]>
@@ -97,15 +97,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginTest -->
-        <test-method is-config="true" signature="closeResources()[pri:0, instance:crmtest.LoginPageTest@694abbdc]" started-at="2022-11-15T08:52:12 IST" name="closeResources" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1668482532545" status="SKIP">
+        <test-method is-config="true" signature="closeResources()[pri:0, instance:crmtest.LoginPageTest@694abbdc]" started-at="2022-11-16T12:53:30 IST" name="closeResources" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1668583410491" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeResources -->
-        <test-method is-config="true" signature="initialization()[pri:0, instance:crmtest.LoginPageTest@694abbdc]" started-at="2022-11-15T08:52:12 IST" name="initialization" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1668482532560" status="SKIP">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:crmtest.LoginPageTest@694abbdc]" started-at="2022-11-16T12:53:30 IST" name="initialization" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1668583410511" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="validateLoginPageLogoTest()[pri:2, instance:crmtest.LoginPageTest@694abbdc]" started-at="2022-11-15T08:52:12 IST" name="validateLoginPageLogoTest" finished-at="2022-11-15T08:52:12 IST" duration-ms="0" status="SKIP">
+        <test-method signature="validateLoginPageLogoTest()[pri:2, instance:crmtest.LoginPageTest@694abbdc]" started-at="2022-11-16T12:53:30 IST" name="validateLoginPageLogoTest" finished-at="2022-11-16T12:53:30 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "java.util.Properties.getProperty(String)" because "base.TestBase.prop" is null]]>
@@ -150,15 +150,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginPageLogoTest -->
-        <test-method is-config="true" signature="closeResources()[pri:0, instance:crmtest.LoginPageTest@694abbdc]" started-at="2022-11-15T08:52:12 IST" name="closeResources" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1668482532580" status="SKIP">
+        <test-method is-config="true" signature="closeResources()[pri:0, instance:crmtest.LoginPageTest@694abbdc]" started-at="2022-11-16T12:53:30 IST" name="closeResources" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1668583410530" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeResources -->
-        <test-method is-config="true" signature="initialization()[pri:0, instance:crmtest.LoginPageTest@694abbdc]" started-at="2022-11-15T08:52:12 IST" name="initialization" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1668482532590" status="SKIP">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:crmtest.LoginPageTest@694abbdc]" started-at="2022-11-16T12:53:30 IST" name="initialization" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1668583410543" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="validateLoginPageTitleTest()[pri:3, instance:crmtest.LoginPageTest@694abbdc]" started-at="2022-11-15T08:52:12 IST" name="validateLoginPageTitleTest" finished-at="2022-11-15T08:52:12 IST" duration-ms="0" status="SKIP">
+        <test-method signature="validateLoginPageTitleTest()[pri:3, instance:crmtest.LoginPageTest@694abbdc]" started-at="2022-11-16T12:53:30 IST" name="validateLoginPageTitleTest" finished-at="2022-11-16T12:53:30 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "java.util.Properties.getProperty(String)" because "base.TestBase.prop" is null]]>
@@ -203,13 +203,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginPageTitleTest -->
-        <test-method is-config="true" signature="closeResources()[pri:0, instance:crmtest.LoginPageTest@694abbdc]" started-at="2022-11-15T08:52:12 IST" name="closeResources" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1668482532611" status="SKIP">
+        <test-method is-config="true" signature="closeResources()[pri:0, instance:crmtest.LoginPageTest@694abbdc]" started-at="2022-11-16T12:53:30 IST" name="closeResources" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1668583410609" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeResources -->
       </class> <!-- crmtest.LoginPageTest -->
       <class name="crmtest.HomePageTest">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:crmtest.HomePageTest@16d04d3d]" started-at="2022-11-15T08:52:12 IST" name="initialization" finished-at="2022-11-15T08:52:12 IST" duration-ms="16" status="FAIL">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:crmtest.HomePageTest@16d04d3d]" started-at="2022-11-16T12:53:30 IST" name="initialization" finished-at="2022-11-16T12:53:30 IST" duration-ms="31" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "java.util.Properties.getProperty(String)" because "base.TestBase.prop" is null]]>
@@ -254,7 +254,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="validateCreateCompanyLinkRedirection()[pri:0, instance:crmtest.HomePageTest@16d04d3d]" started-at="2022-11-15T08:52:12 IST" name="validateCreateCompanyLinkRedirection" finished-at="2022-11-15T08:52:12 IST" duration-ms="0" status="SKIP">
+        <test-method signature="validateCreateCompanyLinkRedirection()[pri:0, instance:crmtest.HomePageTest@16d04d3d]" started-at="2022-11-16T12:53:30 IST" name="validateCreateCompanyLinkRedirection" finished-at="2022-11-16T12:53:30 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "java.util.Properties.getProperty(String)" because "base.TestBase.prop" is null]]>
@@ -299,15 +299,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCreateCompanyLinkRedirection -->
-        <test-method is-config="true" signature="closeResources()[pri:0, instance:crmtest.HomePageTest@16d04d3d]" started-at="2022-11-15T08:52:12 IST" name="closeResources" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1668482532659" status="SKIP">
+        <test-method is-config="true" signature="closeResources()[pri:0, instance:crmtest.HomePageTest@16d04d3d]" started-at="2022-11-16T12:53:30 IST" name="closeResources" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1668583410691" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeResources -->
-        <test-method is-config="true" signature="initialization()[pri:0, instance:crmtest.HomePageTest@16d04d3d]" started-at="2022-11-15T08:52:12 IST" name="initialization" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1668482532664" status="SKIP">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:crmtest.HomePageTest@16d04d3d]" started-at="2022-11-16T12:53:30 IST" name="initialization" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1668583410847" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="validateCreateContactLinkRedirection()[pri:0, instance:crmtest.HomePageTest@16d04d3d]" started-at="2022-11-15T08:52:12 IST" name="validateCreateContactLinkRedirection" finished-at="2022-11-15T08:52:12 IST" duration-ms="0" status="SKIP">
+        <test-method signature="validateCreateContactLinkRedirection()[pri:0, instance:crmtest.HomePageTest@16d04d3d]" started-at="2022-11-16T12:53:30 IST" name="validateCreateContactLinkRedirection" finished-at="2022-11-16T12:53:30 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "java.util.Properties.getProperty(String)" because "base.TestBase.prop" is null]]>
@@ -352,15 +352,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCreateContactLinkRedirection -->
-        <test-method is-config="true" signature="closeResources()[pri:0, instance:crmtest.HomePageTest@16d04d3d]" started-at="2022-11-15T08:52:12 IST" name="closeResources" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1668482532696" status="SKIP">
+        <test-method is-config="true" signature="closeResources()[pri:0, instance:crmtest.HomePageTest@16d04d3d]" started-at="2022-11-16T12:53:30 IST" name="closeResources" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1668583410883" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeResources -->
-        <test-method is-config="true" signature="initialization()[pri:0, instance:crmtest.HomePageTest@16d04d3d]" started-at="2022-11-15T08:52:12 IST" name="initialization" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1668482532702" status="SKIP">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:crmtest.HomePageTest@16d04d3d]" started-at="2022-11-16T12:53:30 IST" name="initialization" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1668583410891" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="validateLogoutTest()[pri:0, instance:crmtest.HomePageTest@16d04d3d]" started-at="2022-11-15T08:52:12 IST" name="validateLogoutTest" finished-at="2022-11-15T08:52:12 IST" duration-ms="0" status="SKIP">
+        <test-method signature="validateLogoutTest()[pri:0, instance:crmtest.HomePageTest@16d04d3d]" started-at="2022-11-16T12:53:30 IST" name="validateLogoutTest" finished-at="2022-11-16T12:53:30 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "java.util.Properties.getProperty(String)" because "base.TestBase.prop" is null]]>
@@ -405,13 +405,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLogoutTest -->
-        <test-method is-config="true" signature="closeResources()[pri:0, instance:crmtest.HomePageTest@16d04d3d]" started-at="2022-11-15T08:52:12 IST" name="closeResources" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1668482532715" status="SKIP">
+        <test-method is-config="true" signature="closeResources()[pri:0, instance:crmtest.HomePageTest@16d04d3d]" started-at="2022-11-16T12:53:30 IST" name="closeResources" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1668583410910" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeResources -->
       </class> <!-- crmtest.HomePageTest -->
       <class name="crmtest.ContactPageTest">
-        <test-method signature="validateCreateContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:crmtest.ContactPageTest@49ec71f8]" started-at="2022-11-15T08:52:12 IST" name="validateCreateContactTest" data-provider="contactData" finished-at="2022-11-15T08:52:12 IST" duration-ms="0" status="SKIP">
+        <test-method signature="validateCreateContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:crmtest.ContactPageTest@49ec71f8]" started-at="2022-11-16T12:53:30 IST" name="validateCreateContactTest" data-provider="contactData" finished-at="2022-11-16T12:53:30 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheet(String)" because "util.TestUtility.worksheet" is null]]>
@@ -459,7 +459,7 @@ at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(Met
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCreateContactTest -->
-        <test-method is-config="true" signature="initialization()[pri:0, instance:crmtest.ContactPageTest@49ec71f8]" started-at="2022-11-15T08:52:12 IST" name="initialization" finished-at="2022-11-15T08:52:12 IST" duration-ms="25" status="FAIL">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:crmtest.ContactPageTest@49ec71f8]" started-at="2022-11-16T12:53:31 IST" name="initialization" finished-at="2022-11-16T12:53:31 IST" duration-ms="25" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "java.util.Properties.getProperty(String)" because "base.TestBase.prop" is null]]>
@@ -504,7 +504,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="validateDemoTest()[pri:0, instance:crmtest.ContactPageTest@49ec71f8]" started-at="2022-11-15T08:52:12 IST" name="validateDemoTest" finished-at="2022-11-15T08:52:12 IST" duration-ms="0" status="SKIP">
+        <test-method signature="validateDemoTest()[pri:0, instance:crmtest.ContactPageTest@49ec71f8]" started-at="2022-11-16T12:53:31 IST" name="validateDemoTest" finished-at="2022-11-16T12:53:31 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "java.util.Properties.getProperty(String)" because "base.TestBase.prop" is null]]>
@@ -549,13 +549,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateDemoTest -->
-        <test-method is-config="true" signature="closeResources()[pri:0, instance:crmtest.ContactPageTest@49ec71f8]" started-at="2022-11-15T08:52:12 IST" name="closeResources" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1668482532801" status="SKIP">
+        <test-method is-config="true" signature="closeResources()[pri:0, instance:crmtest.ContactPageTest@49ec71f8]" started-at="2022-11-16T12:53:31 IST" name="closeResources" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1668583411071" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeResources -->
       </class> <!-- crmtest.ContactPageTest -->
       <class name="crmtest.CompanPageTest">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:crmtest.CompanPageTest@1d2adfbe]" started-at="2022-11-15T08:52:12 IST" name="initialization" finished-at="2022-11-15T08:52:12 IST" duration-ms="27" status="FAIL">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:crmtest.CompanPageTest@1d2adfbe]" started-at="2022-11-16T12:53:31 IST" name="initialization" finished-at="2022-11-16T12:53:31 IST" duration-ms="46" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "java.util.Properties.getProperty(String)" because "base.TestBase.prop" is null]]>
@@ -600,7 +600,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="validateCompanyTest()[pri:0, instance:crmtest.CompanPageTest@1d2adfbe]" started-at="2022-11-15T08:52:12 IST" name="validateCompanyTest" finished-at="2022-11-15T08:52:12 IST" duration-ms="0" status="SKIP">
+        <test-method signature="validateCompanyTest()[pri:0, instance:crmtest.CompanPageTest@1d2adfbe]" started-at="2022-11-16T12:53:31 IST" name="validateCompanyTest" finished-at="2022-11-16T12:53:31 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "java.util.Properties.getProperty(String)" because "base.TestBase.prop" is null]]>
@@ -645,21 +645,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCompanyTest -->
-        <test-method is-config="true" signature="closeResources()[pri:0, instance:crmtest.CompanPageTest@1d2adfbe]" started-at="2022-11-15T08:52:12 IST" name="closeResources" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1668482532853" status="SKIP">
+        <test-method is-config="true" signature="closeResources()[pri:0, instance:crmtest.CompanPageTest@1d2adfbe]" started-at="2022-11-16T12:53:31 IST" name="closeResources" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1668583411141" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeResources -->
       </class> <!-- crmtest.CompanPageTest -->
       <class name="crmtest.DealPageTest">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:crmtest.DealPageTest@36902638]" started-at="2022-11-15T08:52:12 IST" name="initialization" finished-at="2022-11-15T08:52:12 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:crmtest.DealPageTest@36902638]" started-at="2022-11-16T12:53:31 IST" name="initialization" finished-at="2022-11-16T12:53:31 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="validateDealTest()[pri:0, instance:crmtest.DealPageTest@36902638]" started-at="2022-11-15T08:52:12 IST" name="validateDealTest" finished-at="2022-11-15T08:52:12 IST" duration-ms="10" status="PASS">
+        <test-method signature="validateDealTest()[pri:0, instance:crmtest.DealPageTest@36902638]" started-at="2022-11-16T12:53:31 IST" name="validateDealTest" finished-at="2022-11-16T12:53:31 IST" duration-ms="94" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateDealTest -->
-        <test-method is-config="true" signature="closeResources()[pri:0, instance:crmtest.DealPageTest@36902638]" started-at="2022-11-15T08:52:12 IST" name="closeResources" finished-at="2022-11-15T08:52:12 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeResources()[pri:0, instance:crmtest.DealPageTest@36902638]" started-at="2022-11-16T12:53:31 IST" name="closeResources" finished-at="2022-11-16T12:53:31 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeResources -->
