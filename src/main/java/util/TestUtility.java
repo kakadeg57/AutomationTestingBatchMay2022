@@ -1,6 +1,7 @@
 package util;
 
 import java.io.FileInputStream;
+import java.util.Set;
 
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -10,11 +11,28 @@ import org.openqa.selenium.interactions.Actions;
 import base.TestBase;
 
 public class TestUtility extends TestBase{
-	
+	static String parentWindow;
 	public static XSSFWorkbook worksheet;
+	
 	
 	public static void switchToMainPannelFrame() {
 		driver.switchTo().frame("mainpanel");
+	}
+	public static void switchToWindow() {
+		parentWindow = driver.getWindowHandle();
+		Set<String>windows = driver.getWindowHandles();
+		for(String win : windows) {
+			if(!parentWindow.equals(win)) {
+				driver.switchTo().window(win);
+				break;
+		}
+		}
+	}
+	public static void dropdown() {
+		
+	}
+	public static void returnToWindow() {
+		driver.switchTo().window(parentWindow);
 	}
 
 	public static void mouseHover(WebElement elementName) {
@@ -24,13 +42,10 @@ public class TestUtility extends TestBase{
 	
 	
 	
-	
-	
-	
 	public static String[][] getData(){
 		// this method will read and return excel sheet data into test scripts
 		try {
-		FileInputStream file = new FileInputStream("C:\\Users\\Admin\\eclipse-workspace\\AutomationFrameworkBatchMay\\contactData.xlsx"); // reading this file
+		FileInputStream file = new FileInputStream("C:\\Users\\roshan\\eclipse-workspace\\AutomationTestingBatchMay2022\\contactData.xlsx"); // reading this file
 		worksheet = new XSSFWorkbook(file); // we are reading this file as excel workbook
 		}
 		catch(Exception e) {
@@ -53,9 +68,6 @@ public class TestUtility extends TestBase{
 		// we will use this method to apply explicit wait to specific web element
 	}
 	
-	public void switchToWindow() {
-		
-	}
 		public void sreenshot() {
 		
 	}

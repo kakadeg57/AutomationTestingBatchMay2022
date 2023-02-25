@@ -28,6 +28,12 @@ public class HomePage extends TestBase{
 	@FindBy(xpath = "/html/body/table[1]/tbody/tr[3]/td[1]/div/div/ul/li[3]/ul/li[1]/a")
 	WebElement newCompany;
 	
+	@FindBy(xpath = "//a[@title='Deals']")
+	WebElement deal;
+	
+	@FindBy(xpath = "//a[@title='New Deal']")
+	WebElement newDeal;
+	
 	@FindBy(xpath = "//a[text()='Tasks']")
 	WebElement task;
 	@FindBy(xpath = "//a[@title='New Task']")
@@ -56,6 +62,19 @@ public class HomePage extends TestBase{
 		newCompany.click();
 		return new CompanyPage();
 	}
+	public DealPage clickOnNewDeal() {
+		TestUtility.switchToMainPannelFrame();
+		TestUtility.mouseHover(deal);
+		newDeal.click();
+		return new DealPage();
+	}
+	public NewDealPage clickOnNewDeal1() {
+		TestUtility.switchToMainPannelFrame();
+		TestUtility.mouseHover(deal);
+		newDeal.click();
+		return new NewDealPage();
+	}
+	
 	public TaskPage clickOnNewTask() {
 		TestUtility.switchToMainPannelFrame();
 		TestUtility.mouseHover(task);

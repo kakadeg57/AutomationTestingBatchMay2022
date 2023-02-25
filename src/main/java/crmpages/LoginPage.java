@@ -17,11 +17,11 @@ public class LoginPage extends TestBase{
 // page objects repository 
 	
 	// username text box 
-	@FindBy(name = "username")
+	@FindBy(xpath = "//input[@name='username']")
 	WebElement usernameTxt;
 	
 	// password text box
-	@FindBy(name="password")
+	@FindBy(xpath = "//input[@name='password']")
 	WebElement passwordTxt;
 	
 	// login button

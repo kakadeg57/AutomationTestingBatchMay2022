@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [CrmTestSuite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="RegressionTest(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="crmtest.LoginPageTest">
-        <methods>
-          <include name="validateLoginPageTitleTest"/>
-          <include name="closeResources"/>
-          <include name="validateLoginTest"/>
-          <include name="initialization"/>
-        </methods>
-      </class> <!-- crmtest.LoginPageTest -->
-      <class name="crmtest.ContactPageTest">
+      <class name="crmtest.NewDealPageTest">
         <methods>
           <include name="initialization"/>
-          <include name="validateCreateContactTest"/>
           <include name="closeResources"/>
+          <include name="validateDeal_PageTest1"/>
         </methods>
-      </class> <!-- crmtest.ContactPageTest -->
+      </class> <!-- crmtest.NewDealPageTest -->
     </classes>
-  </test> <!-- RegressionTest(failed) -->
-</suite> <!-- Failed suite [CrmTestSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

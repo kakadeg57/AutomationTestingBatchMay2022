@@ -15,6 +15,7 @@ public class TestBase {
 	public static WebDriver driver;
 	public static Properties prop;
 	
+	@SuppressWarnings("deprecation")
 	public static void init() {
 		try {
 		FileInputStream file = new FileInputStream("C:\\Users\\roshan\\eclipse-workspace\\MyMavenProject\\config.properties");

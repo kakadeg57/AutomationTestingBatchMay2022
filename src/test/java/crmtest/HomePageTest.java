@@ -55,11 +55,11 @@ public class HomePageTest extends TestBase{
 	public void validateCreateCallLinkRedirection() {
 		homePage.clickOnNewCase();
 	}
-//	
-//	@Test
-//	public void validateCreateTaskLinkRedirection() {
-//		
-//	}
+	
+	@Test
+	public void validateCreateDealLinkRedirection() {
+		homePage.clickOnNewDeal();
+	}
 	
 	@AfterMethod
 	public void closeResources() {

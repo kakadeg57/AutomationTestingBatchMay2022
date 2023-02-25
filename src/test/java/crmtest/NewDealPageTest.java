@@ -6,26 +6,25 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import base.TestBase;
-import crmpages.DealPage;
+import crmpages.NewDealPage;
 import crmpages.HomePage;
 import crmpages.LoginPage;
 
-public class DealPageTest extends TestBase {
+public class NewDealPageTest extends TestBase{
 	LoginPage loginPage;
 	HomePage homePage;
-	DealPage dealPage;
-
+	NewDealPage newDealPage;
 	@BeforeMethod
-	public void initialization() {
+	public void initialization()	{
 		TestBase.init();
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
-		dealPage = homePage.clickOnNewDeal();
+		newDealPage = homePage.clickOnNewDeal1();
 	}
 	
 	@Test
-	public void validateDealTest() {
-		dealPage.createDealPage("new deal1", "5", "ros", "@roshan", "This is a new deal", "deal will be completed soon");
-		Assert.assertEquals(dealPage.dealNameText(), "new deal1");
+	public void validateDeal_PageTest1() {
+		newDealPage.createDeal("Deal no.1", "nat", "roshan", "250000", "100", "0.5", "@ros", "roshan", "this is a new deal for december", "deal will completed soon");
+		Assert.assertEquals(newDealPage.dealNameText(), "Deal no.1");
 	}
 	
 	
@@ -33,5 +32,5 @@ public class DealPageTest extends TestBase {
 	public void closeResources() {
 		driver.close();
 	}
-
+	
 }
